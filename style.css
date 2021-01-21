@@ -26,12 +26,11 @@ h3 {
 }
 
 main {
-  font-family: 'Poppins', sans-serif;
-  min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 }
 
 .glass {
@@ -42,10 +41,12 @@ main {
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
   );
+  height: 850px;
   border-radius: 2rem;
   z-index: 2;
   backdrop-filter: blur(2rem);
   display: flex;
+  margin: 10rem;
 }
 .circle1,
 .circle2 {
@@ -55,8 +56,8 @@ main {
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.3)
   );
-  height: 10rem;
-  width: 10rem;
+  height: 20rem;
+  width: 20rem;
   position: absolute;
   border-radius: 50%;
 }
@@ -119,7 +120,7 @@ main {
 
 /* GAMES */
 .status {
-  margin-bottom: 3rem;
+  margin-bottom: 3em;
 }
 
 .status input {
@@ -135,7 +136,7 @@ main {
 }
 
 .games {
-  margin: 5rem;
+  margin: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -151,7 +152,7 @@ main {
   );
   border-radius: 1rem;
   margin: 2rem 0;
-  padding: 2rem;
+  padding: 1.5rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
 }
 
